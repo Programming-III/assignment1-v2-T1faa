@@ -18,7 +18,7 @@ class Student : public Person {
     Student();
     ~Student();
 
-    Student(int year, string m, string n, int _id) : Person(n, _id){};
+    Student(int year, string m, string n, int id) : Person(n, id){};
     
 
     int getYearLevel();
