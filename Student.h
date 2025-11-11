@@ -6,7 +6,7 @@
 #using namespace std;
 
 
-class student :: person {
+class Student :: Person {
     private:
     
     int yearLevel;
@@ -16,6 +16,15 @@ class student :: person {
     public:
     void display();
 };
+
+
+
+
+
+
+
+
+
 
 
 #endif
