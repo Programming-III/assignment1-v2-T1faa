@@ -12,8 +12,21 @@ class Person {
 
     public:
 
+    Person();
+    ~Person();
+    
+
+    string getName();
+    int getId();
+
     void display(); 
 };
+
+
+
+
+
+
 
 
 
