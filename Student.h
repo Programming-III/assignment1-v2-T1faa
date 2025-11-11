@@ -3,10 +3,10 @@
 
 #include "Person.h"
 #include <string>
-#using namespace std;
+using namespace std;
 
 
-class Student :: Person {
+class Student : public Person {
     private:
     
     int yearLevel;
@@ -14,16 +14,21 @@ class Student :: Person {
 
 
     public:
+
+    Student();
+    ~Student();
+
+    Student(int year, string m, string n, int _id) : Person(n, _id){};
+    
+
+    int getYearLevel();
+    void setYearLevel(int x);
+
+    string getMajor();
+    void setMajor(string m);
+
     void display();
 };
-
-
-
-
-
-
-
-
 
 
 
